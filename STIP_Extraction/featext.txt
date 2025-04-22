@@ -1,0 +1,6 @@
+for file in /data/video-list.txt
+do
+./bin/stipdet -i "${file}" -vpath ./data/ -o ./data/"${file}".txt -det harris3d
+done
+
+
